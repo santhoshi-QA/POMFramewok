@@ -5,7 +5,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
-
+/**
+ * 
+ * @author Naga
+ *
+ */
 
 public class HomePage 
 {
@@ -13,7 +17,7 @@ public class HomePage
 	WebDriver driver;
 	//define locators
 	
-	By Header=By.xpath("//span[@class='private-dropdown__button-label uiDropdown__buttonLabel']/h1");
+	By Header=By.className("private-page__title");
 	By AccountMenu=By.xpath("//a[@id='account-menu']");
 	By AccName=By.xpath("//div[text()='santhoshi B']");
 	
